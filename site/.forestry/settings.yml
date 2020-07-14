@@ -16,7 +16,7 @@ sections:
   match: "**/*"
 upload_dir: hugo-site-example-c
 public_path: https://res.cloudinary.com/itermotus/image/upload
-front_matter_path: ''
+front_matter_path: "/hugo-cms/hugo-site-example-c"
 use_front_matter_path: true
 file_template: ":filename:"
 build:
