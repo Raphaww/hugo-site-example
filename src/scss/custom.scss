@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+}
+header .nav-link {
+   font-family: 'Oswald', sans-serif;
+   color: #66718f;
+   text-transform: uppercase;
+}
+
+.itm-widget-card--vertical{
+   min-height: 238px;
+   &.itm-widget-card--transparent{
+      @media (max-width:767px){
+         margin-top: 3rem;
+      }
+   }
+}
+
+// // /* Para hacer que las letras .lead sean mas grandes que h1 en el banner */
+
+// .itm-banner-info-container{
+//    .itm-banner-info{
+//       h1{
+//          font-size: 22px;
+//       }
+//       .lead{
+//          font-size: 44px;
+//          line-height: 50px;
+//          @media (max-width:575px) {
+//             font-size: 24px;
+//             line-height: 30px;
+//          }
+//       }
+//    }
+// }
+
+// /* widget slim cuando sea sticky */
+// @media (min-width: 768px) {
+//    .itm-widget-container-horizontal .is-sticky {
+//       min-height: 168px;
+//    }
+//    .is-sticky .itm-booker-horizontal .booker-container .field,
+//    .is-sticky .itm-booker-horizontal .booker-container .booker-submit .itm-btn-primary {
+//       line-height: 46px;
+//    }
+//    .is-sticky .itm-booker-horizontal .DateRangePickerInput {
+//       line-height: 22px;
+//    }
+//    .is-sticky .card .card-body{
+//       padding-bottom: 0;
+//    }
+//    .is-sticky .itm-booker-horizontal.itm-booker{
+//       min-height: 0;
+//    }
+// }

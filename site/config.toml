@@ -1,0 +1,62 @@
+baseurl = "/"
+languageCode = "es-mx"
+defaultContentLanguage = "es"
+theme = "carbon"
+
+[params]
+	hotelPhone = "+52 55 5351 7224"
+	hotelEmail = "hoteldemo@rsvteam.com"
+   # logoURL = "https://res.cloudinary.com/itermotus/q_auto,h_90,c_pad,dpr_2.0/assets/cantovallarta/logo.png"
+   logoBase = "https://res.cloudinary.com/itermotus/"
+   logoPath = "assets/hotelflamingos/hoteldemo-2-logo.png"
+   logoSize = "normal" #si el logoSize es "large" se recomientda usar logoURL en lugar de logoPath
+   maps_api_key = "AIzaSyAEPUa9BewKC1YXZp0l1-kNtUK223IAKGM"
+   imageBase = "//res.cloudinary.com/itermotus/"
+   imageBucket = "hotel"
+   stickyHeader = false #solo puede ser sticky el header o el widget
+   stickyWidget = true
+   showTopMenu = true
+
+[params.roomsNext]
+   weekday = "thursday"
+   nights = 3
+   cutoff = 5
+
+[params.social]
+   [params.social.facebook]
+      icon = "facebook"
+      url = "https://www.facebook.com"
+   [params.social.twitter]
+      icon = "twitter"
+      url = "https://www.twitter.com"
+   [params.social.instagram]
+      icon = "instagram"
+      url = "https://www.instagram.com"
+   [params.social.tripadvisor]
+      icon = "tripadvisor"
+      url = "https://www.tripadvisor.com.mx"
+
+[Languages]
+	[Languages.es]
+   	title = "Hotel Flamingos"
+		languageName = "Español" 
+      widgetVertical = true
+      bookingEngineURL = "https://hotelflamingos.revenatium.com/"
+      bookerURL = "https://assets.revenatium.com/hotelflamingos/es/1.1.163/bundle.js"
+      loyaltyURL = "https://assets.revenatium.com/hotelflamingos/loyalty-widget/es/1.1.23/bundle.js"
+      bannersURL = "https://api-core.revenatium.com/hotelflamingos/58728b69-0cd2-42a6-8d00-6d00841b9763/banners/web?locale=es-mx"
+      roomsURL = "https://api-core.revenatium.com/hotelflamingos/58728b69-0cd2-42a6-8d00-6d00841b9763/1/rooms/web?locale=es-mx"
+      promotionsURL = "https://api-core.revenatium.com/hotelflamingos/58728b69-0cd2-42a6-8d00-6d00841b9763/promotions/web?locale=es-mx"
+      hotelsURL = "https://api-core.revenatium.com/hotelflamingos/58728b69-0cd2-42a6-8d00-6d00841b9763/hotels/web?locale=es-mx"
+   [Languages.en]
+   	title = "Hotel Flamingos" 
+		languageName = "English"
+      widgetVertical = false
+      bookingEngineURL = "https://hotelflamingos-en.revenatium.com/"
+      bookerURL = "https://assets.revenatium.com/hotelflamingos/es/1.1.163/bundle.js"
+      bannersURL = "https://api-core.revenatium.com/hotelflamingos/58728b69-0cd2-42a6-8d00-6d00841b9763/banners/web?locale=en-us"
+      roomsURL = "https://api-core.revenatium.com/hotelflamingos/58728b69-0cd2-42a6-8d00-6d00841b9763/1/rooms/web?locale=en-us"
+      promotionsURL = "https://api-core.revenatium.com/hotelflamingos/58728b69-0cd2-42a6-8d00-6d00841b9763/promotions/web?locale=en-us"
+      hotelsURL = "https://api-core.revenatium.com/hotelflamingos/58728b69-0cd2-42a6-8d00-6d00841b9763/hotels/web?locale=en-us"
+
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]

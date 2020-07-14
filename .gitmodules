@@ -1,0 +1,3 @@
+[submodule "site/themes/carbon"]
+	path = site/themes/carbon
+	url = https://github.com/Revenatium/carbon.git
