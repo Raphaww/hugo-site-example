@@ -28,5 +28,5 @@ build:
   preview_docker_image: forestryio/hugo:node12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: hugo server -D -E -F -d ../dist -s site
+  instant_preview_command: npm run build
 version: 0.71.1
