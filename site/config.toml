@@ -10,7 +10,6 @@ theme = "carbon"
    logoBase = "https://res.cloudinary.com/itermotus/"
    logoPath = "assets/hotelflamingos/hoteldemo-2-logo.png"
    logoSize = "normal" #si el logoSize es "large" se recomientda usar logoURL en lugar de logoPath
-   maps_api_key = "AIzaSyAEPUa9BewKC1YXZp0l1-kNtUK223IAKGM"
    imageBase = "//res.cloudinary.com/itermotus/"
    imageBucket = "hotel"
    stickyHeader = false #solo puede ser sticky el header o el widget
