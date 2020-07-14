@@ -1,8 +1,9 @@
 ---
 title: Galería
 date: 2017-08-15T12:40:54.000-05:00
-weight: "-1"
+weight: -1
 hideBooker: true
+image: "/trihn.jpg"
 menu:
   top:
     weight: -1
@@ -15,4 +16,6 @@ menu:
 {{< interstitial btnText="Ver promociones" btnURL="/deals/">}}
 Conoce las promociones que tenemos para ti.
 {{< /interstitial >}}
-</div>![](/hugo-site-example-c/trihn.jpg)
+</div>
+
+<img src="https://res.cloudinary.com/itermotus/f_auto,h_252,w_448,c_fill/{{ .Params.image }}" />
